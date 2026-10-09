@@ -1,11 +1,8 @@
 # Amazon Bedrock - Production Patterns Demo
 
 > Building Generative AI Applications at Production Scale
-> AWS Elevate Days 2026
 
-> **Built with Kiro Crew:** https://builder.aws.com/content/3HWzCQeYfWjDxsyKVsmKzVPne7w/what-is-kiro-crew-a-hands-on-guide-to-ai-agents-that-learn-fix-and-scale-your-code
-
-> **Linkedin:** https://www.linkedin.com/in/jatinmehrotra/
+> **Linkedin:** https://www.linkedin.com/in/lipikarohilla/
 
 ## What This Is
 
@@ -162,13 +159,6 @@ export BEDROCK_GUARDRAIL_VERSION=<from terraform output>
 | Intelligent Routing (65% Haiku / 35% Sonnet) | ~$192 | 48% |
 | Routing + Prompt Caching | ~$100 | 73% |
 
-## What's Next (From Here)
-
-- **Multimodal**: Use Nova Vision to understand screenshots/error images in support tickets
-- **Fine-tuning/Distillation**: Distill Sonnet knowledge into Haiku for your domain
-- **Data Automation**: Process invoices, receipts, documents at scale with BDA
-- **DynamoDB Vector Search**: Unified operational + vector store (GA 2026)
-- **AgentCore**: Managed hosting for production agents (MCP, A2A protocol support)
 
 ## Cleanup
 
@@ -177,8 +167,3 @@ cd terraform
 terraform destroy -auto-approve
 ```
 
-## Session Info
-
-- **Event**: AWS Elevate Days 2026
-- **Speaker**: Jatin Mehrotra (Developer Advocate, AWS)
-- **Duration**: 1 hour (25 min theory + 30 min demo + 5 min wrap-up)
